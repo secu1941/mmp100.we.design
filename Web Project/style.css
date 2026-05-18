@@ -1,0 +1,39 @@
+html {
+    font-size: large;
+    line-height: 1.5;
+    font-family: "times new roman", Times, serif;
+}
+img,
+video {
+    max-width: 100%;
+    height: min-content;
+}
+figure {
+    margin: center;
+}
+body {
+    background-color: #502653;
+    color: #ffffff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #502653;
+}
+h1 {
+    font-size: 5rem;
+    font-weight: 200;
+    border-bottom: 1px solid black;
+}
+nav ul {
+    list-style: none;
+    padding: 4;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 53px;
+}
